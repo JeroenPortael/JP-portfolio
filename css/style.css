@@ -140,14 +140,15 @@ hr {
   height: 55vh;
   border-radius: 50%;
   border: 10px solid white;
+  display: inline-block;
   animation-name: logo-animation;
-  animation-duration: 5s;
-  animation-delay: 0.5s;
+  animation-duration: 6s;
+  animation-delay: 1s;
 }
 
 @keyframes logo-animation {
   0%   {transform: rotate(-90deg);}
-  100% {transform: rotate(0deg);;}
+  100% {transform: rotate(0deg);}
 }
 
 .scroll-downs {
