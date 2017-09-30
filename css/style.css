@@ -125,7 +125,7 @@ hr {
   margin: 0 auto;
   width: 100%;
   position: absolute;
-  bottom: 15%;
+  bottom: 85px;
   left: 0;
   right: 0;
 }
@@ -142,6 +142,7 @@ hr {
   border: 10px solid white;
   animation-name: logo-animation;
   animation-duration: 5s;
+  animation-delay: 0.5s;
 }
 
 @keyframes logo-animation {
@@ -367,5 +368,23 @@ a .item-info {
     column-count: 1;
     margin: 0 auto;
     text-align: center;
+  }
+  .site-header img {
+    height: 40vh;
+    border: 5px solid white;
+  }
+  h1 {
+    font-size: 1.6em;
+    margin-top: 30px;
+  }
+
+  h2 {
+    font-size: 1.4em;
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.2em;
   }
 }
