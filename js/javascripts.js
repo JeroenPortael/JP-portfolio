@@ -51,3 +51,15 @@ function onScroll(event){
       }
   });
 }
+
+//video playpause
+
+var myVideo=document.getElementById("lyricvideo");
+
+function playPause()
+{
+if (myVideo.paused)
+  myVideo.play();
+else
+  myVideo.pause();
+}
