@@ -54,7 +54,7 @@ function onScroll(event){
 
 //video playpause
 
-var myVideo=document.getElementById("lyricvideo");
+var myVideo=document.getElementById("video");
 
 function playPause()
 {
